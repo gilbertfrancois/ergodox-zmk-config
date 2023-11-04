@@ -14,7 +14,7 @@
 
 / {
     behaviors {
-        bhm: balanced_homerow_mods {
+        bm: balanced_homerow_mods {
             compatible = "zmk,behavior-hold-tap";
             label = "HOMEROW_MODS";
             #binding-cells = <2>;
@@ -32,7 +32,7 @@
 				&bootloader
 				&none        &none        &none       &none      &none              &none         &none                &kp M_MUTE        &none               &none                 &none      &none       &none                &none
 				&none        &kp Q        &kp W       &kp E      &kp R              &kp T         &kp C_BRIGHTNESS_INC &kp C_VOLUME_UP   &kp Y               &kp U                 &kp I      &kp O       &kp P                &none
-				&none        &bhm LSHIFT A &bhm LCTRL S &bhm LALT D &bhm LCMD F         &kp G                                                &kp H               &bhm RCMD J            &bhm RALT K &bhm LCTRL L &bhm LSHIFT SEMICOLON &none
+				&none        &bm LSHIFT A &bm LCTRL S &bm LALT D &bm LCMD F         &kp G                                                &kp H               &bm RCMD J            &bm RALT K &bm LCTRL L &bm LSHIFT SEMICOLON &none
 				&none        &kp Z        &kp X       &kp C      &kp V              &kp B         &kp C_BRIGHTNESS_DEC &kp C_VOLUME_DOWN &kp N               &kp M                 &kp CMMA   &kp DOT     &kp FSLH             &none
 				&mo LAYER_FN &none        &none       &none      &none                                                                                       &none                 &none      &none       &none                &mo LAYER_FN
 				                                                                    &none         &none                &none             &none
@@ -45,7 +45,7 @@
 				&bootloader
 				&none &none          &none         &none        &none        &none        &trans &trans &none        &none         &none        &none           &none                 &none
 				&none &kp NUMBER_1   &kp NUMBER_2  &kp NUMBER_3 &kp NUMBER_4 &kp NUMBER_5 &trans &trans &kp NUMBER_6 &kp NUMBER_7  &kp NUMBER_8 &kp NUMBER_9    &kp NUMBER_0          &none
-				&none &mt LSHIFT INS &mt LCTRL DEL &kp LALT     &kp LCMD     &none                      &kp LEFT     &mt RCMD DOWN &mt RALT UP  &mt RCTRL RIGHT &mt RSHIFT APOSTROPHE &none
+				&none &bm LSHIFT INS &bm LCTRL DEL &kp LALT     &kp LCMD     &none                      &kp LEFT     &bm RCMD DOWN &bm RALT UP  &bm RCTRL RIGHT &bm RSHIFT APOSTROPHE &none
 				&none &none          &none         &none        &none        &none        &trans &trans &kp HOME     &kp PAGE_DOWN &kp PAGE_UP  &kp END         &none                 &none
 				&none &none          &none         &none        &none                                                &none         &none        &none           &none                 &none
 				                                                             &none        &none  &none  &none
@@ -58,7 +58,7 @@
 				&bootloader
 				&none &none           &none            &none             &none                 &none           &trans &trans &none     &none         &none        &none     &none                 &none
 				&none &kp EXCLAMATION &kp AT_SIGN      &kp HASH          &kp DOLLAR            &kp PERCENT     &trans &trans &kp CARET &kp AMPERSAND &kp ASTERISK &kp EQUAL &kp MINUS             &none
-				&none &none           &kp LESS_THAN    &kp LEFT_BRACKET  &kp LEFT_PARENTHESIS  &kp LEFT_BRACE                &none     &kp RCMD      &kp RALT     &kp RCTRL &mt RSHIFT APOSTROPHE &none
+				&none &kp LSHIFT      &kp LESS_THAN    &kp LEFT_BRACKET  &kp LEFT_PARENTHESIS  &kp LEFT_BRACE                &none     &kp RCMD      &kp RALT     &kp RCTRL &bm RSHIFT APOSTROPHE &none
 				&none &kp GRAVE       &kp GREATER_THAN &kp RIGHT_BRACKET &kp RIGHT_PARENTHESIS &kp RIGHT_BRACE &trans &trans &none     &none         &none        &none     &kp BACKSLASH         &none
 				&none &none           &none            &none             &none                                                         &none         &none        &none     &none                 &none
 				                                                                               &none           &none  &none  &none
