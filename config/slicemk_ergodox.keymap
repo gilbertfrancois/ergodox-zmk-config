@@ -34,7 +34,7 @@
 				&bootloader
 				&none        &none        &none       &none      &none            &none                  &none                &kp M_MUTE        &none              &none              &none      &none       &none                &none
 				&none        &kp Q        &kp W       &kp E      &kp R            &kp T                  &kp C_BRIGHTNESS_INC &kp C_VOLUME_UP   &kp Y              &kp U              &kp I      &kp O       &kp P                &none
-				&none        &mt LSHIFT A &mt LCTRL S &mt LALT D &mt LCMD F       &kp G                                                         &kp H              &mt RCMD J         &mt RALT K &mt RCTRL L &mt RSHIFT SEMICOLON &none
+				&none        &bm LSHIFT A &bm LCTRL S &bm LALT D &bm LCMD F       &kp G                                                         &kp H              &bm RCMD J         &bm RALT K &bm RCTRL L &bm RSHIFT SEMICOLON &none
 				&none        &kp Z        &kp X       &kp C      &kp V            &kp B                  &kp C_BRIGHTNESS_DEC &kp C_VOLUME_DOWN &kp N              &kp M              &kp CMMA   &kp DOT     &kp FSLH             &none
 				&mo LAYER_FN &none        &none       &none      &none                                                                                             &none              &none      &none       &none                &mo LAYER_FN
 				                                                                  &none                  &none                &none             &none
